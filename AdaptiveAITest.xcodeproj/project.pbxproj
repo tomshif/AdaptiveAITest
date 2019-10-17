@@ -16,6 +16,8 @@
 		F43363B12358CB47009141FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43363AF2358CB47009141FF /* Main.storyboard */; };
 		F43363BD2358CB47009141FF /* AdaptiveAITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43363BC2358CB47009141FF /* AdaptiveAITestTests.swift */; };
 		F43363C82358CB48009141FF /* AdaptiveAITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43363C72358CB48009141FF /* AdaptiveAITestUITests.swift */; };
+		F43363D62358CBD6009141FF /* EntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43363D52358CBD6009141FF /* EntityClass.swift */; };
+		F43363D82358CC9D009141FF /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43363D72358CC9D009141FF /* random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		F43363C32358CB48009141FF /* AdaptiveAITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveAITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43363C72358CB48009141FF /* AdaptiveAITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveAITestUITests.swift; sourceTree = "<group>"; };
 		F43363C92358CB48009141FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43363D52358CBD6009141FF /* EntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityClass.swift; sourceTree = "<group>"; };
+		F43363D72358CC9D009141FF /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				F43363AF2358CB47009141FF /* Main.storyboard */,
 				F43363B22358CB47009141FF /* Info.plist */,
 				F43363B32358CB47009141FF /* AdaptiveAITest.entitlements */,
+				F43363D52358CBD6009141FF /* EntityClass.swift */,
+				F43363D72358CC9D009141FF /* random.swift */,
 			);
 			path = AdaptiveAITest;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 				F43363AC2358CB35009141FF /* ViewController.swift in Sources */,
 				F43363AA2358CB35009141FF /* GameScene.swift in Sources */,
 				F43363A42358CB34009141FF /* AppDelegate.swift in Sources */,
+				F43363D82358CC9D009141FF /* random.swift in Sources */,
+				F43363D62358CBD6009141FF /* EntityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
